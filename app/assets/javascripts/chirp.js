@@ -1,6 +1,7 @@
 //Open or close chirp window
 
 
+
 var lockedIn = false;
 
 $(document).on("keydown", function(event) {
