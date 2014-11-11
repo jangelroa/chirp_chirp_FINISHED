@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
 
   get '/' => 'chirp#index'
+  post '/' => 'chirp#create_a_new_chirp'
+  get '/edit/:id' => 'chirp#edit'
+  post '/edit/:id' => 'chirp#update_or_delete'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
